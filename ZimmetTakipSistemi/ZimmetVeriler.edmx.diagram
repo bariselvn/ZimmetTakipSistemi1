@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="79f19358f2b34870add579c0fb8bca8c" Name="Diagram1" ZoomLevel="77">
+        <EntityTypeShape EntityType="zimmetsistemModel.Atık" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="zimmetsistemModel.Departman" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="zimmetsistemModel.Kullanıcı" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="zimmetsistemModel.Market" Width="1.5" PointX="10.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="zimmetsistemModel.Rol" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="zimmetsistemModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="zimmetsistemModel.Urunler" Width="1.5" PointX="10.5" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="zimmetsistemModel.Zimmet" Width="1.5" PointX="12.75" PointY="3.25" IsExpanded="true" />
+        <AssociationConnector Association="zimmetsistemModel.FK_Atık_Kullanıcı" ManuallyRouted="false" />
+        <AssociationConnector Association="zimmetsistemModel.FK_Atık_Urunler" ManuallyRouted="false" />
+        <AssociationConnector Association="zimmetsistemModel.FK_Atık_Zimmet" ManuallyRouted="false" />
+        <AssociationConnector Association="zimmetsistemModel.FK_Kullanıcı_Departman" ManuallyRouted="false" />
+        <AssociationConnector Association="zimmetsistemModel.FK_Kullanıcı_Rol" ManuallyRouted="false" />
+        <AssociationConnector Association="zimmetsistemModel.FK_Market_Kullanıcı" ManuallyRouted="false" />
+        <AssociationConnector Association="zimmetsistemModel.FK_Zimmet_Kullanıcı" ManuallyRouted="false" />
+        <AssociationConnector Association="zimmetsistemModel.FK_Zimmet_Urunler" ManuallyRouted="false" />
+        <AssociationConnector Association="zimmetsistemModel.FK_Market_Urunler" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
